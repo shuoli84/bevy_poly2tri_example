@@ -1,0 +1,10 @@
+[package]
+name = "bevy_poly2tri"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "0.11.0-dev", git = "https://github.com/bevyengine/bevy", rev = "7b7294b8a7c5f7531c52a2524a6a3a456c0519c0" }
+poly2tri-rs = { git = "https://github.com/shuoli84/poly2tri-rs", features = ["f32"] }
